@@ -19,12 +19,15 @@
   background-color:  #dbd9d9;
   font-family: $monospaced;
   font-size: 14px;
-  color: black;
   display: display;
   // border: 3px solid #333;
   // border-style: dotted;
   box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0,0,0,0.3);
 }
+
+// .textbox p {
+//   background-color: #ffffff;
+// }
 
 .links {
   text-align: center;
@@ -32,7 +35,7 @@
 
 figcaption {
   font-family: Consolas, Monaco, Monospace; 
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .row::after {

@@ -1,8 +1,8 @@
 # Site settings
-title:          RZarch
-description:    "Zhicheng Zhang's Personl Static Website"
+title:          Zarchch
+description:    "Zarchch's Personl Static Website"
 baseurl:        ""
-url:            "https://zzwarn1998.github.io"
+url:            "https://zarchch.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
@@ -10,7 +10,7 @@ google_analytics: UA—XXXXXXXX-X
 # Author
 author:
   name:         Zhicheng Zhang
-  url:          https://zzwarn1998.github.io/
+  url:          https://github.com/zarchch
   email:        zarchch14@gmail.com
 
 # Build settings
