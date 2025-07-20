@@ -1,0 +1,42 @@
+# Site settings
+title:          Robinson Zhang
+description:    "Robinson Zhang's Personl Static Website"
+baseurl:        ""
+url:            "https://zarchch.github.io"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Zhicheng Zhang
+  url:          https://github.com/zarchch
+  email:        zarchch14@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate: 8
+paginate_path: "page:num/"
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale

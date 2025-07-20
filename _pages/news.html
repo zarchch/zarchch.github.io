@@ -1,0 +1,35 @@
+---
+layout: default
+title: "News"
+permalink: /news/
+---
+<div class="news">
+    <div class="news-header">
+        <h2 class="news-header-title">{{ page.title }}</h2>
+        <div class="news-header-line"></div>
+    </div>
+    <div class="timeline_box">
+        <div class="timeline">
+            {% for timeline_mark in site.data.timeline_marks%}
+            <div class="content">
+                <div class="title">
+                   <h3>{{ timeline_mark.time }}</h3>
+                   <p>{{ timeline_mark.location}}</p>
+                </div>
+                <div class="fishc">
+                    <p>{{ timeline_mark.event }}</p>
+                    <p>
+                        {% assign details = timeline_mark.details %}
+                        {% if details == "" %}
+                        {{ details }}
+                        {% else %}
+                        {% assign details_with_prefix = "> " | append: details %}
+                        {{ details_with_prefix }}
+                        {% endif %}
+                    </p>
+                </div>   
+                {% endfor %}     
+            </div>
+        </div>
+    </div>
+</div>

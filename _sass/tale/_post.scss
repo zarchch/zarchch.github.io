@@ -1,0 +1,91 @@
+.post {
+  padding: 3rem 0;
+  font-family: $monospaced;
+
+  &-info {
+    color: $default-tint;
+    // font-family: $monospaced;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+    span {
+      font-style: italic;
+    }
+  }
+
+  &-title {
+    color: $default-shade;
+    font-family: $sans-serif;
+    font-size: 4rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  &-line {
+    border-top: 0.4rem solid $default-shade;
+    display: block;
+    margin: 0 auto 3rem;
+    width: 4rem;
+  }
+
+  p {
+    // font-family: $monospaced;
+    margin: 0 0 1rem;
+    text-align: justify;
+    img {
+      margin: 0 auto 0.5rem;
+    }
+  }
+
+  h2 h3 h4 h5 h6 {
+    font-family: $sans-serif;
+  }
+
+  table {
+    margin: 0 auto; 
+    text-align: center;
+    border-collapse: collapse;
+    border: 0.1rem solid black;
+    tr th{
+      padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+      border: 0.1rem solid black;
+      background-color: gray;
+      color: white;
+      // font-family: $monospaced;
+    }
+    tr td {
+      padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+      border: 0.1rem solid black;
+      // font-family: $monospaced;
+    }
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  img {
+    margin: 0 auto 0.5rem;
+  }
+
+  img + em {
+    color: $default-tint;
+    display: block;
+    // font-family: $sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    text-align: center;
+  }
+
+  // CSS for making emoji inline
+  img.emoji {
+    display: inline-block;
+    left: 0;
+    transform: none;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-top;
+    padding: 0;
+    margin: 0;
+  }
+}
