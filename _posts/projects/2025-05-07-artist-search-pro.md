@@ -2,7 +2,7 @@
 layout: post
 title: "Artist Search Pro"
 author: Zhicheng Zhang
-date: 2025-05-07 15:30:25 +0800
+date: 2025-05-07 15:30:25 -0700
 tags: [Project]
 excerpt_separator: <!--excerpt-->
 comments: true

@@ -26,7 +26,7 @@
 .timeline{
     width:100%;
     max-width:800px;
-    background: #dbd9d9;
+    background: white;
     padding: 100px 50px;
     position: relative;
     border-radius: 5px;
@@ -40,7 +40,8 @@
     left:calc(33% + 15px);
     bottom:0px;
     width:4px;
-    background:#ffffff;
+    // background:#ffffff;
+    background: black;
 }
 
 .timeline:after{
@@ -56,10 +57,10 @@
 }
 
 .content .title{
-    marign-bottom:0.5em;
+    margin-bottom: 0.5rem;
     float:left;
     width:33%;
-    padding-right:30px;
+    padding-right:20px;
     text-align:right;
     position:relative;
 }
@@ -70,16 +71,16 @@
     width:8px;
     height:8px;
     border:4px solid black;
-    background-color:#fff;
+    background-color:white;
     border-radius:100%;
-    top:15%;
+    top:30%;
     right:-8px;
     z-index:9999;
 }
 
 .content .title h3{
     margin:0;
-    font-size:120%;
+    font-size:110%;
 }
 
 .content .title p{

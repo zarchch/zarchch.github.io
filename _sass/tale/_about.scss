@@ -1,41 +1,51 @@
 /* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+// .col-1 {width: 8.33%;}
+// .col-2 {width: 16.66%;}
+// .col-3 {width: 25%;}
+// .col-4 {width: 33.33%;}
+// .col-5 {width: 41.66%;}
+// .col-6 {width: 50%;}
+// .col-7 {width: 58.33%;}
+// .col-8 {width: 66.66%;}
+// .col-9 {width: 75%;}
+// .col-10 {width: 83.33%;}
+// .col-11 {width: 91.66%;}
+// .col-12 {width: 100%;}
 
-.col-9>.textbox {
-  padding: 10px;
-  margin: 0px;
-  border-radius: 5px;
-  background-color:  #dbd9d9;
-  font-family: $monospaced;
-  font-size: 14px;
-  display: display;
-  // border: 3px solid #333;
-  // border-style: dotted;
-  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0,0,0,0.3);
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
-// .textbox p {
-//   background-color: #ffffff;
-// }
+.col-9 {
+  flex: 0 0 75%;
+  padding: 10px;
+}
 
-.links {
-  text-align: center;
+.col-3 {
+  flex: 0 0 25%;
+  padding: 10px;
+}
+
+.col-9 > .textbox {
+  padding: 10px;
+  margin: 0.5rem;
+  background-color:white;
+  font-family: $monospaced;
+  font-size: 100%;
+  display: display;
+  text-decoration: underline;
+  border-top: 0.5rem solid black;
+  border-bottom: 0.5rem solid black;
 }
 
 figcaption {
   font-family: Consolas, Monaco, Monospace; 
   font-size: 14px;
+  margin-top: 0.5rem;
 }
 
 .row::after {
@@ -46,16 +56,22 @@ figcaption {
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
+  .col-9,
+  .col-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
-  .image>figcaption{
+  figcaption {
+    text-align: left;
+  }
+
+  .links {
     text-align: center;
   }
 }

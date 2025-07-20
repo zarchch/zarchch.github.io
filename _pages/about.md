@@ -7,9 +7,9 @@ permalink: /about/
 <div class="row">
     <div class = "col-9">
         <div class="textbox">
-            <p>> Hi, there!&#x1F44B;</p>
-            <p>> My name is Zhicheng Zhang. I obtained my Bachelor of Engineering in Electronic Information Science and Technology from the School of Computer Science and Technology at China University of Mining and Technology. Currently, I am pursuing for my Master of Science in Computer Science degree at the University of Southern California.</p> 
-            <p>> I am especially passionate about topics including Software Engineering and Game Development. Meanwhile, I am also an enthusiast of everything related to art, like painting, photography, handcraft, singing, and bodybuilding.</p>
+            <p>Hi, there!&#x1F44B;</p>
+            <p>I am Zhicheng (Robinson) Zhang. I obtained my Bachelor of Engineering in Electronic Information Science and Technology from the School of Computer Science and Technology at China University of Mining and Technology. Currently, I am pursuing for my Master of Science in Computer Science degree at the University of Southern California.</p> 
+            <p>I am especially passionate about topics including Software Engineering and Game Development. Meanwhile, I am also an enthusiast of everything related to art, like painting, photography, handcraft, singing, and bodybuilding.</p>
         </div>
     </div>
     <div class="col-3">
